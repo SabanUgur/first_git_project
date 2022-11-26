@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Page</title>
+<link rel="stylesheet" href="sign_up.css"/>
+</head>
+<body>
+<!-- ".." for to find the relative path-->
+    <a href="../index.html">HOME</a>
+<h1>Please Complete the Sign Up Form</h1>
+
+<form>
+    <fieldset>
+        <legend>Create an Account</legend>
+    <label>Full Name: </label><br>
+    <input type="text" placeholder="enter your full name" /><br><br>
+    
+    <label>User Name: </label><br>
+    <input type="textbox" placeholder="enter your username"/><br><br>
+
+    <label>Password : </label><br>
+    <input type="password" placeholder="enter your password"/><br><br>
+
+    <label>Re-Type Password : </label><br>
+    <input type="password" placeholder="re-type your password" /><br><br>
+
+    <label>Email : </label><br>
+    <input type="email" placeholder="enter your email" /><br><br>
+    
+        <div class="lan_gen">
+        <label class="lang" >Languages : </label><br>
+        <div class="lang">
+        <input type="checkbox" name="language" /> <label>English</label><br>
+        <input type="checkbox" name="language" /> <label>Spanish</label><br>
+        <input type="checkbox" name="language" /> <label>French</label><br><br> 
+    </div>
+        <label>Gender : </label><br>
+        <div class="lang">
+        <input type="radio" name="gender"/> <label>Male</label><br>
+        <input type="radio" name="gender"/> <label>Female</label><br>
+        <input type="radio" name="gender"/> <label>Others</label><br><br>
+    </div>
+</div>
+
+    <label>Select Your Birthday</label><br>
+    <input type="date"/><br>
+    <input type="datetime-local"/><br><br>
+    <label>Country : </label><br>
+    <select>
+        <option value="not selected">-Select Country-</option>
+        <option value="USA">USA</option>
+        <option value="Turkey">Turkey</option>
+        <option value="France">France</option>
+        <option value="China">China</option>
+    </select>
+<br><br>
+<label>Select your color : </label>
+<input type="color"/>
+<br><br>
+<label>Upload File : </label>
+<br>
+<input type="file"/>
+<label>Comment :</label><br>
+<textarea rows=10 cols=30 placeholder="enter your comments, max 200 words" ></textarea>
+<br><br>
+<input type="submit" value="click me" /><br><br>
+<button>Click me!</button>
+
+</fieldset>
+    </form>
+</body>
+</html>

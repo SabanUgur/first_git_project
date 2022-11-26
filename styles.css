@@ -1,0 +1,68 @@
+h1{
+    color:green;
+    font-size: 20px;
+}
+h2{
+   /* font: size: 2em;*/
+   /* font: size 200%;*/
+/*font: size 0.3in;*/
+font-size: large;
+font-family: cursive;
+text-align: left;
+background-color: yellowgreen;
+}
+h4{
+    color: gold;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:lightblue ;
+    text-align: center;
+}
+.my-class{
+    color: burlywood;
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:lightblue ;
+    text-align: center;
+
+}
+#to-do-list{
+color:aliceblue;
+background-color: black;
+text-align: center;
+
+}
+
+.img1{
+    width: 400px;
+    height: 300px;
+    border: 3.5px solid purple;
+    border-radius: 60%;
+    margin: 10px;
+}
+.img2{
+    width: 400px;
+    height: 300px;
+    border: 5px dashed greenyellow;
+    padding: 10px;
+}
+.iframe1{
+    width: 500px;
+    height: 500px;
+    border: 5px solid pink;
+}
+/* styling table using table tag */
+table{
+    border: 1px solid red;
+    background-color: lightgray;
+    width:25%;
+}
+th{
+    border:1px solid red;
+    background-color: darkgray;
+}
+td{
+    border: 1px solid purple;
+    color: green;
+    background-color: lightgray;
+}
